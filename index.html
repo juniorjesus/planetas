@@ -4,24 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Planetas</title>
+    <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
-    <h1>Sistema Solar</h1>
-<<<<<<< HEAD
-    <h1>Ejercicio de arreglo de vectores</h1>
-=======
-    <h1>Sistema Solar</h1>
->>>>>>> developers
+    <h1 class="text-center m-5">Ejercicios sobre el Sistema Solar</h1>
     <table>
-      <thead>
+      <thead class="text-center m-5">
           <tr>
-              <th>#del planeta</th>
-              <th> planeta</th>
-              <th>Distancia (años luz)</th>
-                <th>Tamaño</th>
+              <th class="text-center m-5">#del planeta</th>
+              <th class="text-center m-5"> planeta</th>
+              <th class="text-center">Distancia (años luz)</th>
+                <th class="text-center m-5">Tamaño</th>
           </tr>      
     </thead>
+    <tbody>
         <tr>
             <td><input type="number" id="n_planeta_1" class="numeracion_planetas planeta1"></td>
             <td><input type="text" id="np_planeta_1" class="nombre_planetas planeta1"></td>
@@ -50,13 +49,16 @@
             <td><input type="number" id="d_planeta_1" class="distancia_planetas"></td>
             <td><input type="number" id="t_planeta_1" class="tamanio_planetas"></td>
         </tr>
+       
+    </tbody>
+        
     
     </table>
-    <div class="container">
-        <button id="btn_enviar_evaluacion" class="item">Enviar</button>
-        <button id="btn_ordenar_valores" class="item">Ordenar valores</button>
-        <button id="btn_filtrar_distancia" class="item">filtrar</button>
-        <button id="btn_buscar_planeta" class="item">Buscar</button>
+    <div class="text-center">
+        <button id="btn_enviar_evaluacion" class="item  m-4 mt-5">Enviar</button>
+        <button id="btn_ordenar_valores" class="item m-4 mt-5">Ordenar valores</button>
+        <button id="btn_filtrar_distancia" class="item m-4 mt-5">filtrar</button>
+        <button id="btn_buscar_planeta" class="item  m-4 mt-5">Buscar</button>
     </div>
     <script src="scripts/script.js"></script>
   </body>

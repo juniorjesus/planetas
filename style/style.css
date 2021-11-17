@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    min-height: 100vh;
+    background-image: url(https://www.caracteristicas.co/wp-content/uploads/2017/03/sistema-solar-e1564771413564.jpg);   
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Poppins;
+}
+.item{
+    background-color: white;
+    color: rgb(154, 167, 162);
+    font-size: 25px;
+}
+.item:hover{
+    color:  rgb(154, 167, 162);
+    width: 150px;
+}
+@media only screen and (max-width: 445px) {
+   i{
+       margin: 0;
+   }
+  }
+
+  table{
+      text-align: center;
+      width: 100%;
+  }
+

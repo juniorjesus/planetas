@@ -1,5 +1,5 @@
-let nombrePlanetas = Array ('Tierra', 'Marte');
-let distancia = [6, 3, '67'];
+let nombrePlanetas = ['Tierra', 'Marte']
+let distancia = [6, 3,];
 const tamaño = [];
 
 console.log(nombrePlanetas)
